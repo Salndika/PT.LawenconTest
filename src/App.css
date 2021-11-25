@@ -1,0 +1,165 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.Body {
+  font-family: "Roboto",sans-serif;
+  font-weight: 300;
+  background: grey;
+}
+.sidenav {
+  height: 100%;
+  width: 25%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #14668b;
+  transition: 0.5s ease;
+  overflow-x: hidden;
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.logo {
+  width: 55%;
+  height: 30%;
+}
+.autovision {
+  width: 60%;
+  background-color: whitesmoke;
+  opacity: 0.5;
+  padding: 1vw;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.navigation a {
+  display: block;
+  color: white;
+}
+.navigation {
+  width: 30%;
+  margin-top: 29px;
+  margin-bottom: 31px;
+  font-size: larger;
+}
+.title p, .title h4{
+  margin-bottom: 0;
+}
+.titlebody {
+  font-size: x-large;
+  font-weight: bold;
+  color: #474747;
+}
+.titlecard1 {
+  font-size: x-small ;
+  font-weight: bold;
+  color: #6e6d6d;
+}
+.bodycard1 {
+  font-size: large ;
+  font-weight: bold;
+  color: #3b3b3b;
+}
+.titlecard2 {
+  font-size: x-small ;
+  font-weight: bold;
+  color: #363636;
+}
+.bodycard2 {
+  font-size: normal ;
+  font-weight: bold;
+  color: #313131;
+}
+.datasets, .trainingsetup {
+  font-size: larger;
+  font-weight: bold;
+  color: #14668b;
+}
+.py-5 {
+  padding-top: 3rem!important;
+  padding-bottom: 2rem;
+  padding-left: 1rem;
+}
+.py-6 {
+  padding-top: 1rem!important;
+  padding-bottom: 1rem;
+  padding-left: 1rem;
+}
+.TrainState {
+  display: block;
+}
+.projectname {
+  background-color: whitesmoke;
+  opacity: 0.5;
+  border-radius: 10px;
+  
+}
+
+.datecard {
+  font-size: x-small ;
+  font-weight: normal;
+  color: #000000;
+}
+.timecard {
+  font-size: x-small ;
+  font-weight: lighter;
+  color: #6e6d6d;
+}
+.namecard {
+  font-size: large ;
+  font-weight: bold;
+  color: #000000;
+}
+.pointcard {
+  font-size: large ;
+  font-weight: bold;
+  color: #ffc400;
+}
+.poolpoint {
+  font-size: normal ;
+  font-weight: bold;
+  color: #000000;
+}
+
+.bottomborder {
+  border-bottom: 1px solid black;
+}
